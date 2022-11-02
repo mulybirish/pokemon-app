@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* width: 70%; */
+}
+.card {
+  background-color: lightgrey;
+  height: 300px;
+  width: 250px;
+  margin: 20px;
+  border-radius: 10px;
+}
+h1 {
+  color: blue;
+}
