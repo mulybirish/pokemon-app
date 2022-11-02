@@ -1,11 +1,11 @@
 import React from "react";
 import Pcard from "./Pcard";
 
-const pokedex = ({ pokemonData, url }) => {
+const pokedex = ({ pokemonData }) => {
   return (
     <div className="container">
       {pokemonData.map((item) => {
-        return <Pcard src={url} item={item} />;
+        return <Pcard item={item} />;
       })}
     </div>
   );

@@ -4,15 +4,42 @@
 .container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  gap: 1;
   /* width: 70%; */
 }
-.card {
+#card {
   background-color: lightgrey;
-  height: 300px;
+  height: 310px;
   width: 250px;
   margin: 20px;
   border-radius: 10px;
 }
 h1 {
   color: blue;
+}
+button {
+  background-color: #000;
+  color: #fff;
+}
+span {
+  background-color: #000;
+  color: #fff;
+  padding: 3px 15px;
+  margin-bottom: 10px;
+}
+.plus {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+}
+.minus {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  cursor: pointer;
+}
+footer {
+  border-radius: 10px;
+}
+.hide {
+  display: none;
 }
